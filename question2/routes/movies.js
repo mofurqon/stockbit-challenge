@@ -20,7 +20,7 @@ const search = async (req, res) => {
 }
 
 const detail = async (req, res) => {
-    const id = req.params.id;
+    const id = req.query.movieId;
 
     try {
         const getMovies = await axios.get(URI, {params: {
