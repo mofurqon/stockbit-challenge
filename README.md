@@ -9,6 +9,24 @@ choose based on the operating system used
 You can check [here](https://www.mycompiler.io/view/H77SyKz) for online compiler.
 
 ### Question 2 Express.js
+make sure you have installed node and run this command
+```bash
+cd question2
+```
+install the dependency
+```bash
+npm install
+```
+
+run the server
+
+```bash
+npm run start
+```
+unit testing
+```bash
+npm run test
+```
 
 ### Question 3 Refactoring the Code
 
