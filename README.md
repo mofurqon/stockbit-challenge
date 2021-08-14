@@ -23,10 +23,14 @@ run the server
 ```bash
 npm run start
 ```
+open `http://localhost:8080` in the browser 
+
 unit testing
 ```bash
 npm run test
 ```
+
+live server `https://omdb-stockbit.herokuapp.com`
 
 ### Question 3 Refactoring the Code
 

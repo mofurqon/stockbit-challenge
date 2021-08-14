@@ -5,6 +5,7 @@ const app = express();
 
 app.use(express.json());
 
+app.get('/', (req, res) => res.send(' Welcome to Stockbit Challenge'));
 app.get('/search', logger, search);
 app.get('/detail', logger, detail);
 
